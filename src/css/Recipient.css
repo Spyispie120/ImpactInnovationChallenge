@@ -1,0 +1,18 @@
+#qr_img {
+  width: 50%;
+  height: 50%;
+}
+
+#recipient_title {
+  text-align: left;
+  margin-bottom: 5em;
+}
+
+#recipient_title h1 {
+  margin-left: 1em;
+  text-decoration: underline;
+}
+
+#recipient_content h2{
+  font-size: 30pt;
+}

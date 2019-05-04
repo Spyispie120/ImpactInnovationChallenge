@@ -1,0 +1,23 @@
+#nav_wrapper {
+  border-bottom: 1px black solid;
+}
+
+#nav_wrapper a {
+  /* border: 1px red solid; */
+  margin: 0 2em 0 2em;
+  font-size: 18pt;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#nav_wrapper a:visited{
+  color: black;
+}
+
+#nav_wrapper a:active{
+  color: black;
+}
+
+#nav_wrapper #login{
+  float: right;
+}

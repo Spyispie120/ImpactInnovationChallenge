@@ -10,6 +10,16 @@
     margin-right: auto;
 }
 
+#mission_statement h3 {
+    font-size: 35pt;
+    margin-bottom: 0;
+}
+
+#mission_statement p {
+    font-size: 15pt;
+    
+}
+
 #button_container {
     display: flex;
     flex-direction: row;

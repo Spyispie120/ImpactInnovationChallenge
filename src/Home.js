@@ -1,11 +1,22 @@
 import React, {Component} from 'react';
 import './css/Home.css';
+import GroupHug from "./image/grouphug.png";
 
 export default class Home extends Component {
     render() {
         return (
             <div id="home">
-                <h1 id="title"><i>Vizinate</i></h1>
+                <div id="wrapper">
+                <div id="header">
+                    <div>
+                        <img src={GroupHug} alt="grouphug" id="group_hug"/>
+                    </div>
+                    <div>
+                        <h1 id="title"><i>Vizinate</i></h1>
+                        <h2> Improving visibility of charitable donations and creating donor appreciation.</h2>
+                    </div>
+
+                </div>
                 <div id="mission_statement">
                     <h3>Our Mission Statement</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit vel dui eget pharetra.
@@ -50,6 +61,8 @@ export default class Home extends Component {
                         <button>Log in</button>
                     </div>
                 </div>
+                </div>
+                
             </div>
         );
     }

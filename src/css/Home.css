@@ -1,3 +1,7 @@
+#wrapper {
+    margin-bottom: 20px;
+}
+
 #mission_statement {
     max-width: 75%;
     text-align: left;
@@ -11,4 +15,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#header {
+    display: flex;
+    max-width: 75%;
+    padding-top: 2em;
+    /* border: 1px red solid; */
+    justify-content: space-around;
+}
+
+#header #title{
+    /* display: inline; */
+    font-size: 40pt;
+    
 }

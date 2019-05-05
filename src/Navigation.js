@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import qrcode from './image/QRCode.png';
 import "./css/Navigation.css";
 import {Link} from "react-router-dom";
 
@@ -9,7 +8,7 @@ export default class Navigation extends Component {
             <div id="navigation">
               <div id="nav_wrapper">
                 <nav>
-                  <Link to="/homd" id="logo">Vizinate</Link>
+                  <Link to="/home" id="logo">Vizinate</Link>
                   <Link to="/home">Home</Link>
                   <Link to="/home">Resources</Link>
                   <Link to="/home">Contact</Link>

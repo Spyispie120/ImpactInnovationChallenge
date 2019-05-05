@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import qrcode from './image/QRCode.png';
 import "./css/Recipient.css";
-import Navigation from "./Navigation";
 export default class Recipient extends Component {
     render() {
         return (

@@ -19,19 +19,12 @@ export default class Home extends Component {
                 </div>
                 <div id="mission_statement">
                     <h3>Our Mission Statement</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit vel dui eget pharetra.
-                        Pellentesque lacinia euismod nisl, eget gravida felis pulvinar eu. Aenean eget magna ut urna
-                        fermentum sodales eu nec mauris. Vestibulum molestie venenatis tortor, eu lobortis nulla sodales
-                        id.
-                        In vestibulum facilisis velit sit amet maximus. Nam justo est, accumsan eget libero non, commodo
-                        cursus metus. Nunc quis consectetur ex. Maecenas nisl urna, aliquam eu sodales quis, ornare in
-                        quam.
-                        Donec sagittis ac lorem quis ornare. Proin feugiat justo auctor elit auctor vehicula. Ut
-                        convallis
-                        tincidunt pretium. Curabitur sit amet justo a magna vulputate vestibulum id nec quam. Nunc
-                        hendrerit
-                        luctus diam, nec mattis nibh congue sit amet. Aenean ac purus eget sem consequat accumsan. Nam
-                        condimentum sapien ac tincidunt convallis. In congue posuere rutrum.</p>
+                    <p>Vizinate aims to provide a sense of security regarding where your donations go.
+                        It shows that you truly do make a difference in helping people get on their feet to 
+                        achieve great things in life. Transparency and visibility motivate users like you to
+                         continuously make their mark in society. You enable people to become self-sufficient and
+                          help create a better future for others. We provide the platform, you provide the hope. 
+                    </p>
                     <h3>Impact</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit vel dui eget pharetra.
                         Pellentesque lacinia euismod nisl, eget gravida felis pulvinar eu. Aenean eget magna ut urna

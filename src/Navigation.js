@@ -9,10 +9,11 @@ export default class Navigation extends Component {
             <div id="navigation">
               <div id="nav_wrapper">
                 <nav>
+                  <Link to="/homd" id="logo">Vizinate</Link>
                   <Link to="/home">Home</Link>
                   <Link to="/home">Resources</Link>
                   <Link to="/home">Contact</Link>
-                  <Link to="/home" id="login">Login</Link>
+                  <Link to="/login" id="login">Login</Link>
                 </nav>
               </div>
             </div>

@@ -10,12 +10,21 @@
   text-decoration: none;
 }
 
+#nav_wrapper a{
+  color: black;
+}
+
 #nav_wrapper a:visited{
   color: black;
 }
 
 #nav_wrapper a:active{
   color: black;
+}
+
+#nav_wrapper #logo{
+  float: left;
+  font-size: 20pt;
 }
 
 #nav_wrapper #login{

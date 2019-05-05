@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import './css/Home.css';
 import GroupHug from "./image/grouphug.png";
 
@@ -50,19 +51,19 @@ export default class Home extends Component {
                 <div id="button_container">
                     <div id="donate">
                         <h2>Want to donate?</h2>
-                        <button>Create an account</button>
+                        <Link to="/home"><button>Sign Up</button></Link>
                     </div>
                     <div id="sign_up">
                         <h2>Looking for help?</h2>
-                        <button>Find out how</button>
+                        <Link to="/home"><button>Find out how</button></Link>
                     </div>
                     <div id="login_home">
                         <h2>Have an account?</h2>
-                        <button>Log in</button>
+                        <Link to="/login"><button>Log in</button></Link>
                     </div>
                 </div>
                 </div>
-                
+
             </div>
         );
     }
